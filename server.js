@@ -100,7 +100,8 @@ app.get("*", (req, res) => {
     res.sendFile(path.join(htmlfolder, "error.html"));
 })
 
+const PORT= process.env.PORT || 3000
 
-app.listen("80", () => {
+app.listen(PORT, () => {
     console.log("Server is running");
 })
