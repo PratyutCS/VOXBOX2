@@ -1,5 +1,5 @@
 "# VOXBOX2" 
-TO RUN THE WEBSITE USE ANY ONE OF THE COMMANDS GIVEN BELOW :
+TO RUN THE WEBSITE USE ANY ONE OF THE COMMANDS :
                                                            : npm run start
                                                            : npm start
                                                            : nodemon server.js
