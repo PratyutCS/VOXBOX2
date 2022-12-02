@@ -54,7 +54,7 @@ app.post("/index", async(req, res) => {
     }
     catch(error){
         console.log(error);
-        res.status(400).send(error);
+        res.status(400).send("error cannot find username :  "+error);
     }
 })
 
