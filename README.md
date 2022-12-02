@@ -4,5 +4,5 @@ TO RUN THE WEBSITE USE ANY ONE OF THE COMMANDS GIVEN BELOW :
                                                            : npm start
                                                            : nodemon server.js
                                                            : node server.js
-Make sure to have latest node installed in your machine.
-if any error pops up just try re executing the same command or executing any other commands.
+  /|\  Make sure to have latest node installed in your machine.
+  /|\  if any error pops up just try re executing the same command or executing any other commands.
