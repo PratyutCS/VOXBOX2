@@ -104,7 +104,7 @@ app.get("*", (req, res) => {
 const PORT= process.env.PORT || 3000
 
 app.listen(PORT, () => {
-    console.log("Server is running");
+    console.log("Server is running at lolz");
     mongoose.connect(urri)
     .then((result)=>console.log("works "+result))
     .catch((err)=>console.log(err));
