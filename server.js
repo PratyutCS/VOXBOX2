@@ -105,4 +105,7 @@ const PORT= process.env.PORT || 3000
 
 app.listen(PORT, () => {
     console.log("Server is running");
+    mongoose.connect(urri)
+    .then((result)=>console.log("works "+result))
+    .catch((err)=>console.log(err));
 })
