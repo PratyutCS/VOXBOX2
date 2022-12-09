@@ -1,3 +1,4 @@
+require('dotenv').config();
 let Express = require('express')
 let path = require('path')
 const mongoose = require('mongoose')
@@ -19,7 +20,7 @@ let htmlfolder = path.join(__dirname, "/public/html");
 app.set('view engine','ejs');
 app.set("views",path.join(__dirname, "./templates/views"))
 
-const urri = "mongodb+srv://AikataPratyut:aikata%40123@mscdb.0tplylu.mongodb.net/nodesDB";
+const urri = process.env.mongoDbKey;
 
 mongoose.connect(urri)
 .then((result)=>console.log("works "+result))
